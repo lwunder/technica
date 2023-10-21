@@ -51,6 +51,9 @@
 		E35534502AE48763009845DC /* Technica */ = {
 			isa = PBXGroup;
 			children = (
+				E355345F2AE48781009845DC /* Models */,
+				E35534612AE4878C009845DC /* Views */,
+				E35534602AE48788009845DC /* ViewModels */,
 				E35534512AE48763009845DC /* TechnicaApp.swift */,
 				E35534532AE48763009845DC /* ContentView.swift */,
 				E35534552AE48769009845DC /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				E35534582AE48769009845DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E355345F2AE48781009845DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E35534602AE48788009845DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E35534612AE4878C009845DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
