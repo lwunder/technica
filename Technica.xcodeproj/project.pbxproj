@@ -14,6 +14,8 @@
 		E35534652AE48964009845DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534642AE48964009845DC /* HomeView.swift */; };
 		E35534672AE48A20009845DC /* AddReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534662AE48A20009845DC /* AddReceiptView.swift */; };
 		E35534692AE48C97009845DC /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534682AE48C97009845DC /* PaymentView.swift */; };
+		E355346B2AE4AD85009845DC /* ReceiptUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */; };
+		E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355346C2AE4ADFB009845DC /* AmountUploadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E35534642AE48964009845DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E35534662AE48A20009845DC /* AddReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReceiptView.swift; sourceTree = "<group>"; };
 		E35534682AE48C97009845DC /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptUploadView.swift; sourceTree = "<group>"; };
+		E355346C2AE4ADFB009845DC /* AmountUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountUploadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				E35534642AE48964009845DC /* HomeView.swift */,
 				E35534662AE48A20009845DC /* AddReceiptView.swift */,
 				E35534682AE48C97009845DC /* PaymentView.swift */,
+				E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */,
+				E355346C2AE4ADFB009845DC /* AmountUploadView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E355346B2AE4AD85009845DC /* ReceiptUploadView.swift in Sources */,
+				E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */,
 				E35534652AE48964009845DC /* HomeView.swift in Sources */,
 				E35534542AE48763009845DC /* AppView.swift in Sources */,
 				E35534522AE48763009845DC /* TechnicaApp.swift in Sources */,

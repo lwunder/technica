@@ -9,7 +9,24 @@ import SwiftUI
 
 struct AddReceiptView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            
+            List {
+                NavigationLink(
+                    destination: ReceiptUploadView(),
+                    label: {
+                        Text("Upload a photo of the receipt")
+                    }
+                )
+                
+                NavigationLink(
+                    destination: AmountUploadView(),
+                    label: {
+                        Text("Input amount owed")
+                    }
+                )
+            }
+        }
     }
 }
 
