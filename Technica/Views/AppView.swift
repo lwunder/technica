@@ -15,7 +15,7 @@ struct AppView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            AddReceiptView()
+            ThreadsView()
                 .tabItem {
                     Image(systemName: "bubble.left.and.bubble.right.fill")
                     Text("Threads")

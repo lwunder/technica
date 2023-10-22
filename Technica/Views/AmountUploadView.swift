@@ -15,7 +15,7 @@ struct AmountUploadView: View {
         Form {
             TextField("Enter amount", text: $amount)
                 .keyboardType(.numberPad)
-            NavigationLink(destination: AddReceiptView().navigationBarBackButtonHidden(true)) {
+            NavigationLink(destination: ThreadsView().navigationBarBackButtonHidden(true)) {
                 Button("Add amount") {
                   print("\($amount) added.")
                 }

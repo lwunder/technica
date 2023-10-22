@@ -18,6 +18,7 @@
 		E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355346C2AE4ADFB009845DC /* AmountUploadView.swift */; };
 		E3B9BCF32AE4DF050073D6A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9BCF22AE4DF050073D6A2 /* User.swift */; };
 		E3B9BCF52AE4E0190073D6A2 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9BCF42AE4E0190073D6A2 /* Receipt.swift */; };
+		E3B9BCF72AE572BD0073D6A2 /* ThreadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9BCF62AE572BD0073D6A2 /* ThreadsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E355346C2AE4ADFB009845DC /* AmountUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountUploadView.swift; sourceTree = "<group>"; };
 		E3B9BCF22AE4DF050073D6A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E3B9BCF42AE4E0190073D6A2 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		E3B9BCF62AE572BD0073D6A2 /* ThreadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +106,11 @@
 			children = (
 				E35534532AE48763009845DC /* AppView.swift */,
 				E35534642AE48964009845DC /* HomeView.swift */,
+				E3B9BCF62AE572BD0073D6A2 /* ThreadsView.swift */,
 				E35534662AE48A20009845DC /* AddReceiptView.swift */,
-				E35534682AE48C97009845DC /* ProfileView.swift */,
 				E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */,
 				E355346C2AE4ADFB009845DC /* AmountUploadView.swift */,
+				E35534682AE48C97009845DC /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				E355346B2AE4AD85009845DC /* ReceiptUploadView.swift in Sources */,
 				E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */,
+				E3B9BCF72AE572BD0073D6A2 /* ThreadsView.swift in Sources */,
 				E35534652AE48964009845DC /* HomeView.swift in Sources */,
 				E3B9BCF52AE4E0190073D6A2 /* Receipt.swift in Sources */,
 				E35534542AE48763009845DC /* AppView.swift in Sources */,
