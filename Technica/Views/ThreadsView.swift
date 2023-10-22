@@ -15,13 +15,13 @@ struct ThreadsView: View {
             NavigationView {
                 List {
                     NavigationLink(
-                        destination: AddReceiptView(),
+                        destination: ThreadDetailView(name: "Sherry"),
                         label: {
                             Text("Sherry")
                         }
                     )
                     NavigationLink(
-                        destination: AddReceiptView(),
+                        destination: ThreadDetailView(name: "Alice"),
                         label: {
                             Text("Alice")
                         }
