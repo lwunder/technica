@@ -17,13 +17,13 @@ struct AppView: View {
                 }
             AddReceiptView()
                 .tabItem {
-                    Image(systemName: "plus.app")
-                    Text("Add Receipt")
+                    Image(systemName: "bubble.left.and.bubble.right.fill")
+                    Text("Threads")
                 }
-            PaymentView()
+            ProfileView()
                 .tabItem {
-                    Image(systemName: "arrow.2.squarepath")
-                    Text("Pay")
+                    Image(systemName: "person.crop.circle")
+                    Text("Profile")
                 }
         }
     }

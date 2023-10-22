@@ -13,9 +13,11 @@
 		E35534592AE48769009845DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35534582AE48769009845DC /* Preview Assets.xcassets */; };
 		E35534652AE48964009845DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534642AE48964009845DC /* HomeView.swift */; };
 		E35534672AE48A20009845DC /* AddReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534662AE48A20009845DC /* AddReceiptView.swift */; };
-		E35534692AE48C97009845DC /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534682AE48C97009845DC /* PaymentView.swift */; };
+		E35534692AE48C97009845DC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35534682AE48C97009845DC /* ProfileView.swift */; };
 		E355346B2AE4AD85009845DC /* ReceiptUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */; };
 		E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355346C2AE4ADFB009845DC /* AmountUploadView.swift */; };
+		E3B9BCF32AE4DF050073D6A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9BCF22AE4DF050073D6A2 /* User.swift */; };
+		E3B9BCF52AE4E0190073D6A2 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9BCF42AE4E0190073D6A2 /* Receipt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +28,11 @@
 		E35534582AE48769009845DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E35534642AE48964009845DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E35534662AE48A20009845DC /* AddReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReceiptView.swift; sourceTree = "<group>"; };
-		E35534682AE48C97009845DC /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		E35534682AE48C97009845DC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptUploadView.swift; sourceTree = "<group>"; };
 		E355346C2AE4ADFB009845DC /* AmountUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountUploadView.swift; sourceTree = "<group>"; };
+		E3B9BCF22AE4DF050073D6A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E3B9BCF42AE4E0190073D6A2 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		E355345F2AE48781009845DC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E3B9BCF22AE4DF050073D6A2 /* User.swift */,
+				E3B9BCF42AE4E0190073D6A2 /* Receipt.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,7 +105,7 @@
 				E35534532AE48763009845DC /* AppView.swift */,
 				E35534642AE48964009845DC /* HomeView.swift */,
 				E35534662AE48A20009845DC /* AddReceiptView.swift */,
-				E35534682AE48C97009845DC /* PaymentView.swift */,
+				E35534682AE48C97009845DC /* ProfileView.swift */,
 				E355346A2AE4AD85009845DC /* ReceiptUploadView.swift */,
 				E355346C2AE4ADFB009845DC /* AmountUploadView.swift */,
 			);
@@ -179,9 +185,11 @@
 				E355346B2AE4AD85009845DC /* ReceiptUploadView.swift in Sources */,
 				E355346D2AE4ADFB009845DC /* AmountUploadView.swift in Sources */,
 				E35534652AE48964009845DC /* HomeView.swift in Sources */,
+				E3B9BCF52AE4E0190073D6A2 /* Receipt.swift in Sources */,
 				E35534542AE48763009845DC /* AppView.swift in Sources */,
+				E3B9BCF32AE4DF050073D6A2 /* User.swift in Sources */,
 				E35534522AE48763009845DC /* TechnicaApp.swift in Sources */,
-				E35534692AE48C97009845DC /* PaymentView.swift in Sources */,
+				E35534692AE48C97009845DC /* ProfileView.swift in Sources */,
 				E35534672AE48A20009845DC /* AddReceiptView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
